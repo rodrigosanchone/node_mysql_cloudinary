@@ -4,9 +4,7 @@ import cors from 'cors';
 import morgan from "morgan";
 import empleadosRouter from './routes/empleados.routes.js'
 const app = express()
-/*esto es solo un comentario*/
-/*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*/
-/*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*//*esto es solo un comentario*/
+
 
 app.use(cors())
 app.use(express.json());
