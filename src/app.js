@@ -6,7 +6,9 @@ import empleadosRouter from './routes/empleados.routes.js'
 const app = express()
 /*esto es solo un comentario*/
 /*esto es solo un comentario*/
-
+/*esto es solo un comentario*/
+/*esto es solo un comentario*/
+/*esto es solo un comentario*/
 app.use(cors())
 app.use(express.json());
 app.use(fileUpload({
@@ -15,10 +17,10 @@ app.use(fileUpload({
 }))
 app.use(morgan('dev'))
 app.use('/api',empleadosRouter)
-/* app.use((req,res,next)=>{
+ app.use((req,res,next)=>{
     res.status(404).json({
         message: 'Endpoint not  found'
     })
-}) */
+}) 
 
 export default app;
