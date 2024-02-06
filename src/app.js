@@ -9,6 +9,10 @@ const app = express()
 /*esto es solo un comentario*/
 /*esto es solo un comentario*/
 /*esto es solo un comentario*/
+/*esto es solo un comentario*/
+/*esto es solo un comentario*/
+/*esto es solo un comentario*/
+
 app.use(cors())
 app.use(express.json());
 app.use(fileUpload({
@@ -23,4 +27,4 @@ app.use('/api',empleadosRouter)
     })
 }) 
 
-export default app;
+export default app;rm
