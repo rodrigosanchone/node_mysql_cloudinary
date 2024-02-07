@@ -18,11 +18,12 @@ import {v2 as cloudinary } from 'cloudinary'
     
  
       export const uploadImage = async(filepath)=>{
+        console.log('entro')
         return await cloudinary.uploader.upload(filepath,{
                 folder: 'empleados'
             }
         )
-        console.log('entro')
+       
     }
 
     export const deleteImage = async(public_id)=>{

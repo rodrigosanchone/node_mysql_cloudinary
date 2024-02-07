@@ -20,4 +20,4 @@ app.use('/api',empleadosRouter)
     })
 }) 
 
-export default app;rm
+export default app;
